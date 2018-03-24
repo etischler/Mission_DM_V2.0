@@ -5,7 +5,6 @@ import { AlertModule } from 'ngx-bootstrap';
 import { AppComponent } from './app.component';
 import { FootbarComponent } from './footbar/footbar.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,
