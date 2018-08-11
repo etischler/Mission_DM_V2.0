@@ -7,13 +7,15 @@ import { FootbarComponent } from './footbar/footbar.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
+import { HomeNavBarComponent } from './home-nav-bar/home-nav-bar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FootbarComponent,
     HomeComponent,
-    LoginComponent
+    LoginComponent,
+    HomeNavBarComponent
   ],
   imports: [
     BrowserModule,
